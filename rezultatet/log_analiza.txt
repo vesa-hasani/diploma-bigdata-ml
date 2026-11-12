@@ -1,0 +1,2 @@
+Matplotlib is building the font cache; this may take a moment.
+Analiza përfundoi: /Users/vesahasani/diploma/diploma-bigdata-ml/rezultatet/analiza

@@ -1,0 +1,18 @@
+# Të dhënat janë shumë të mëdha për GitHub (shkarkohen nga UCI)
+data/
+*.csv.gz
+*.zip
+
+# Mjedisi i Python-it
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Logje të Spark-ut
+spark-warehouse/
+metastore_db/
+derby.log

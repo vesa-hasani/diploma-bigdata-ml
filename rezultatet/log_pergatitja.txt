@@ -1,0 +1,24 @@
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+26/11/09 14:08:35 WARN Utils: Your hostname, vesas-MacBook-Air.local, resolves to a loopback address: 127.0.0.1; using 192.168.1.4 instead (on interface en0)
+26/11/09 14:08:35 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+/Users/vesahasani/venv-diploma/lib/python3.12/site-packages/pyspark/testing/utils.py:127: FutureWarning: PySpark does not yet fully support pandas >= 3.0.0. Some features may not work correctly. It is recommended to use pandas < 3.0.0 for now.
+  require_minimum_pandas_version()
+26/11/09 14:08:36 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[Stage 0:>                                                          (0 + 1) / 1]                                                                                26/11/09 14:08:50 WARN SparkStringUtils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
+[Stage 3:>                                                          (0 + 1) / 1]                                                                                [Stage 6:>                                                          (0 + 1) / 1][Stage 6:>                                                          (0 + 1) / 1][Stage 8:>                                                        (0 + 10) / 16][Stage 8:==============>                                          (4 + 10) / 16][Stage 8:===================================>                     (10 + 6) / 16][Stage 8:=====================================================>   (15 + 1) / 16]                                                                                [Stage 9:>                                                          (0 + 1) / 1][Stage 9:>                                                          (0 + 1) / 1][Stage 11:>                                                         (0 + 4) / 4]                                                                                {
+  "rreshta_fillestare": 11000000,
+  "rreshta_pas_pastrimit": 11000000,
+  "rreshta_train": 8800943,
+  "rreshta_test": 2199057,
+  "shperndarja_e_etiketave_train": {
+    "0.0": 4137367,
+    "1.0": 4663576
+  },
+  "koha_e_pergatitjes_s": 226.45,
+  "spark_version": "4.3.0",
+  "seed": 42
+}

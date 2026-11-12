@@ -1,0 +1,35 @@
+{
+  "platform": "macOS-15.6-arm64-arm-64bit",
+  "python": "3.12.16",
+  "processor": "arm",
+  "logical_cpus": 10,
+  "ram_gb": 17.2,
+  "cpu": "Apple M4",
+  "physical_cores": "10",
+  "performance_cores": "4",
+  "efficiency_cores": "6",
+  "seed": 42,
+  "lr_max_iter": 100,
+  "rf_num_trees": 20,
+  "rf_max_depth": 8,
+  "args": {
+    "data": "data/higgs_parquet",
+    "out": "rezultatet/results.csv",
+    "engines": "sklearn",
+    "algos": [
+      "lr",
+      "rf"
+    ],
+    "cores": [
+      10
+    ],
+    "fractions": [
+      0.1,
+      0.25,
+      0.5,
+      1.0
+    ],
+    "reps": 5,
+    "driver_memory": "10g"
+  }
+}

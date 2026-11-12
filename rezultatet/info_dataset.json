@@ -1,0 +1,13 @@
+{
+  "rreshta_fillestare": 11000000,
+  "rreshta_pas_pastrimit": 11000000,
+  "rreshta_train": 8800943,
+  "rreshta_test": 2199057,
+  "shperndarja_e_etiketave_train": {
+    "0.0": 4137367,
+    "1.0": 4663576
+  },
+  "koha_e_pergatitjes_s": 226.45,
+  "spark_version": "4.3.0",
+  "seed": 42
+}

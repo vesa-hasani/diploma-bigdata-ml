@@ -1,0 +1,3 @@
+hipoteza,algo,cores,raporti_sipas_fraksionit,raporti_zvogelohet,raporti_mbi_1_te_fraksioni_me_i_vogel,pika_e_kalimit
+H3,lr,10,0.1: 6.01 | 0.25: 4.74 | 0.5: 6.95 | 1: 4.90,False,True,nuk u arrit brenda fraksioneve të testuara
+H3,rf,10,0.1: 1.62 | 0.25: 1.11 | 0.5: 1.14 | 1: 0.93,False,True,"fraction=1, n_train=8800943"
